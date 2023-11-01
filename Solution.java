@@ -17,7 +17,7 @@ class Solution {
   public static List<String> linkedListValues(Node<String> head) {
     List<String> values = new ArrayList<>();
     Node<String> curr = head;
-    while(curr != null) {
+    while (curr != null) {
       System.out.println(curr.val);
       values.add(curr.val);
       curr = curr.next;
@@ -36,7 +36,7 @@ class Solution {
 
     // a -> b -> c -> d
 
-    Solution.linkedListValues(a); 
+    Solution.linkedListValues(a);
     // -> [ "a", "b", "c", "d" ]
   }
 }
